@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 
+//components
+import FetchTest from './components/fetchTest';
+//pages
+
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <FetchTest />
   );
 }
 
